@@ -53,8 +53,6 @@ public class Fibonacci {
                 salida.println(n + "\t" + tiempoIter + "\t" + tiempoRec);
             }
 
-            System.out.println("Archivo generado: tiempos_fibonacci.txt");
-
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -62,5 +60,6 @@ public class Fibonacci {
 
 
 }
+
 
 
